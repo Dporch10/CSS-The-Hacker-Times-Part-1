@@ -13,3 +13,38 @@ body {
     border-radius: 25px;
     box-shadow: 2px 2px 5px grey;
 }
+
+
+.date {
+    text-align: justify;
+    font-size: small;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+header {
+    text-align: center;
+    font-family: abril fatface;
+
+}
+
+ul { list-style-type: none;
+    display: inline-block;
+    border-top: 2px;
+    border-bottom: 2px;
+}
+
+h5 {
+    color:red;
+    font-weight: 400px;
+}
+
+h2 { 
+    font-family: roboto slab;
+
+}
+
+h4 {
+    display: inline-block;
+    
+    
+}
