@@ -30,23 +30,77 @@ header {
 ul li {
     list-style-type: none;
     display: inline-block;
-    margin: 10x;
-    border-top: 2px;
-    border-bottom: 2px;
+    margin-left: 0px;
+    padding: 6px;
+    font-size: small;
 }
 
 h5 {
     color:red;
-    font-weight: 400px;
+    font-family: abril fatface; 
 }
+main img { width: 100%;
+
+}
+main p {
+    width: 100%;
+    border-bottom: 1px #ededed solid;
+    padding-bottom: 2em;
+    text-align: justify;
+
+}
+
 
 h2 { 
     font-family: roboto slab;
 
 }
 
-h4 {
+.more-articles {
+    display: inline-block;
+    width: 40%;
+}
+.more-articles img{
+
+    width: 100%;
+}
+nav {
+    position: sticky;
+    top: 0px;
+    border-top: solid #ededed;
+    border-bottom: solid #ededed;
+    border-width: 1px;
+    background: white;
+    font-size: small;
+    margin: auto;
+}
+nav ul {
+    padding: 0px;
+    margin: auto;
+    text-align: center;
+
+}
+nav ul li a{
+    color: lightslategrey;
+    text-decoration: none;
+    text-align: center;
     display: inline-block;
     
-    
+}
+
+.bonus-articles {
+    display: inline-grid 30% 30% 30%;
+    padding: 1px 8px 4px 8px;
+    text-align: center;
+    margin: 1px 4px 1px 4px;
+    justify-content: center;
+}
+
+     
+        
+.more-articles{
+
+display: flex;
+
+
 }
